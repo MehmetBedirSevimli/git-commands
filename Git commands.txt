@@ -1,0 +1,31 @@
+$ git config --global user.name "Mehmet Bedir Sevimli" // Sistemdeki kullanıcı adımızı yapılandırır.
+$ git config --global user.name // Parametre vermeden yazarsak varsayılan kullanıcı adını bize geri döndürür.
+$ git config --global user.email "mehmetbedirsevimli123@gmail.com" // Sistemdeki kullanıcı email adresimizi yapılandırır.
+$ git config --global user.email // Parametre vermeden yazarsak varsayılan kullanıcı email adresimizi bize geri döndürür.
+$ pwd // Bulunduğumuz mevcut dizinin adresini döndürür.
+$ ls // (List Files) Bulunduğumuz dizin üzerindeki dosyaları ve dizinleri döndürür.
+$ cd // (Change Directory) Bulunduğumuz dizini değiştirmek için kullanırız. Parametre belirtmeden kullanırsak kök dizinine (root) iner.
+$ cd images // images klasörüne geçeriz.
+$ cd desktop/ingilizce // Birden fazla seviyede geçiş yapabiliriz.
+$ cd .. // Bir alt dizine ineriz.
+$ clear // Terminali temizler. git 
+$ git init // Boş git deposu oluşturur veya projeyi git deposuna dönüştürür.
+$ ls -a // Gizli dosya formatındaki dosyaları listeler.(Örnek: .git)
+$ git add . // Mevcut dizindeki bütün dosyaları geçiş bölgesine alır.(Working Directory --> Staging Area)
+$ git add yeni.txt // İstenilen dosyayı geçiş bölgesine alır.
+$ git commit -m "ilk commit" // Mesaj ekleyerek git deposuna eklenir.(Staging Area --> Git Repository)
+$ git log // Bütün versiyonları listeler.
+$ git status // Çalışma dizini ile git deposu arasındaki farkları gösterir.
+$ git diff // Dosya üzerinde yapılan değişiklikleri listeler.
+$ git diff --staged // Staging Area ile git deposu arasındaki değişiklikleri listeler.
+$ git rm bolme.txt //(rm || add) Silinme işleminin bildirimini geçiş bölgesine taşır.
+$ git commit -m "bolme.txt silindi" // Silinme işleminin bildirimini geçiş bölgesinden git deposuna taşır.
+$ git rm -r silinecekler/ // Klasörün içindekileri ve klasörü siler.
+$ git mv deneme1.txt deneme2.txt // Dosyanın adını değiştirmemizi sağlar. deneme1.txt -> deneme2.txt (Dosyayı başka bir dizine taşırken de mv kullanılır.
+$ git restore index.txt // Değişikliği geri alma (Workout - Çalışma dizini)
+$ git restore --staged index.txt // Değişikliği geri alma (Staging Area - Geçiş Bölgesi)
+$  git checkout b77eaa5229b44314332071eb9ebdaaf01f2a5b30 -- . // versiyon değiştirme
+
+
+
+
