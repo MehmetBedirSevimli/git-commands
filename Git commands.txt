@@ -25,7 +25,8 @@ $ git mv deneme1.txt deneme2.txt // Dosyanın adını değiştirmemizi sağlar. 
 $ git restore index.txt // Değişikliği geri alma (Workout - Çalışma dizini)
 $ git restore --staged index.txt // Değişikliği geri alma (Staging Area - Geçiş Bölgesi)
 $  git checkout b77eaa5229b44314332071eb9ebdaaf01f2a5b30 -- . // versiyon değiştirme
-
+$ git remote add origin https://github.com/MehmetBedirSevimli/git-komutlar.git // Uzak deponun bağlantısını ekler
+$ git push -u origin master // Projeyi uzak depoya yollar
 
 
 
